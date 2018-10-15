@@ -29,6 +29,7 @@ class School
     ROSTER.each do |k,v|
       v.sort! 
     end
+    ROSTER
   end
   
 end
