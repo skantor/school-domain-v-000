@@ -22,7 +22,7 @@ class School
   end
   
   def grade 
-  
+    ROSTER[grade]
   end
   
   def sort 
