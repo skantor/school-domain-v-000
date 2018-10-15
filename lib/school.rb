@@ -21,11 +21,11 @@ class School
     end
   end
   
-  def grade(grade)
+  def grade(gradee)
     ROSTER[grade]
   end
   
-  def sort 
+  def sort(grade)
     ROSTER.each do |k,v|
       v.sort! 
     end
