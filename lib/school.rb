@@ -17,7 +17,7 @@ class School
     if ROSTER.include?(grade)
       ROSTER[grade] << name unless ROSTER[grade].include?(name)
     else 
-      ROSTER[grade] = [name]
+      ROSTER[grade] = []
     end
   end
   
